@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <script src="bootstrap/jquery.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="primszamok.js"></script>
+    <title>Prímszámok</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Intervallum</h1>
+        <div class="row col-12">
+        <div class="col-3 border text-center bg-light">
+            <form>
+                <label for="tol">Számtól:</label><input type="number" name="tol" id="tol">
+                <label for="ig">Számig:</label><input type="number" name="ig" id="ig">
+                <label for="nov">Növekvő:</label><input type="radio" name="sorrend" id="nov" value="1">
+                <label for="csokk">Csökkenő:</label><input type="radio" name="sorrend" id="csokk" value="0">
+                <br>
+                <input type="button" value="Listáz" id="listaz" name="listaz">
+            </form>
+        </div>
+        <div class="col-3 border text-center bg-light">
+            <label>Prímszámok listája:</label>
+            <ul id="lista" name="lista">
+                
+            </ul>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
